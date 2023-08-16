@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+@layer components {
+    .caixapgt {
+        @apply
+        flex items-center sm:justify-center
+        p-5 pr-16 sm:p-8 gap-5
+        h-24 sm:h-40 w-full
+        bg-white
+        border-2 border-gray-200
+        rounded-md transition
+        peer-checked:border-lime-500
+        peer-checked:shadow-lg
+        peer-checked:-translate-y-1
+    }
+    .pgtxt {
+        @apply
+        static sm:absolute
+        top-full sm:mt-1
+        text-center text-lg sm:text-xl
+        w-auto sm:w-full
+        opacity-70 font-medium
+    }
+    .checker {
+        @apply
+        absolute top-1/2 sm:-top-4 right-6 sm:-right-3
+        -translate-y-1/2 sm:translate-y-0 -mt-1
+        bg-lime-500 text-white
+        h-8 w-8 p-0.5
+        rounded-full transition
+        peer-checked:scale-100 scale-0
+    }
+    .imagem-mastercard {
+        @apply
+        w-20 h-16
+        sm:w-full sm:h-full
+        object-center
+    }
+    .span2{
+        @apply
+        mb-2.5
+        block
+    }
+    .inputpag{
+        @apply
+        w-full
+        border border-solid 
+    }
+}
+
+.gradiente {
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+}

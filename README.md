@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Agência de Viagens: WeFly ✈️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WeFly é um moderno site de agência de viagens, projetado para oferecer aos usuários uma experiência fluida e intuitiva ao comprar passagens. Desfrute de múltiplas opções de pagamento e escolha o seu próximo destino em apenas alguns cliques!
 
-## Available Scripts
+## 🚀 Tecnologias Utilizadas
 
-In the project directory, you can run:
+- Front-end:
+- HTML5
+- CSS3
+- TailwindCSS
+- React Native (para versões mobile)
 
-### `npm start`
+- Pré-processador:
+- SASS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Integração:
+- API de WeFly - fornece todos os dados de voos, preços, destinos, entre outros.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖥️ Instalação e Execução
 
-### `npm test`
+1. Clone este repositório:
+git clone [link-do-repositorio]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navegue até a pasta do projeto e instale as dependências:
+cd nome-da-pasta npm install
 
-### `npm run build`
+3. Execute o projeto:
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌐 Recursos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Pesquisa de Voos: Encontre facilmente voos para diversos destinos.
+- Múltiplas Formas de Pagamento: Flexibilidade ao escolher como pagar.
+- UI Intuitiva: Design moderno e navegação simples para uma experiência do usuário sem problemas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🤝 Contribuições
 
-### `npm run eject`
+Este projeto está aberto para sugestões e contribuições. Sinta-se à vontade para abrir um issue ou enviar um pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📜 Licença
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.

@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './app.css'
+import PagamentoInfo from './Components/Tailwind/PagamentoInfo';
+import Cadastro from './Components/Tailwind/Cadastro';
+import LoginPage from './Components/Tailwind/LoginPage';
+import MetodoPagamento from './Components/Tailwind/MetodoPagamento';
+import HomePage from './Components/Tailwind/HomePage'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import VooLayout from './voos';
+import { AuthProvider } from './AuthContext';
+import Deletar from './Components/Tailwind/Deletar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+    <AuthProvider>
+        <Router>
+            <Routes>
+                <Route path="/" element={<HomePage/>} />
+                <Route path="/login" element={<LoginPage/>} />
+                <Route path="/cadastro" element={<Cadastro/>} />
+                <Route path="/MetodoPagamento" element={<MetodoPagamento/>} />
+                <Route path="/InfPagamento" element={<PagamentoInfo/>} />
+                <Route path="/Voos" element={<VooLayout/>} />
+                <Route path="/Deletar" element={<Deletar/>} />
+            </Routes>
+        </Router>
+    </AuthProvider>
+    );
 }
 
 export default App;
