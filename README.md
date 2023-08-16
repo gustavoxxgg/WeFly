@@ -4,34 +4,34 @@ WeFly é um moderno site de agência de viagens, projetado para oferecer aos usu
 
 ## 🚀 Tecnologias Utilizadas
 
-- Front-end:
+- **Front-end**:
 - HTML5
 - CSS3
 - TailwindCSS
 - React Native (para versões mobile)
 
-- Pré-processador:
+- **Pré-processador**:
 - SASS
 
-- Integração:
-- API de WeFly - fornece todos os dados de voos, preços, destinos, entre outros.
+- **Integração**:
+- **API de WeFly** - fornece todos os dados de voos, preços, destinos, entre outros.
 
 ## 🖥️ Instalação e Execução
 
 1. Clone este repositório:
-git clone [link-do-repositorio]
+`git clone [link-do-repositorio]`
 
 2. Navegue até a pasta do projeto e instale as dependências:
-cd nome-da-pasta npm install
+`cd nome-da-pasta npm install`
 
 3. Execute o projeto:
-npm start
+`npm start`
 
 ## 🌐 Recursos
 
-- Pesquisa de Voos: Encontre facilmente voos para diversos destinos.
-- Múltiplas Formas de Pagamento: Flexibilidade ao escolher como pagar.
-- UI Intuitiva: Design moderno e navegação simples para uma experiência do usuário sem problemas.
+- **Pesquisa de Voos**: Encontre facilmente voos para diversos destinos.
+- **Múltiplas Formas de Pagamento**: Flexibilidade ao escolher como pagar.
+- **UI Intuitiva**: Design moderno e navegação simples para uma experiência do usuário sem problemas.
 
 ## 🤝 Contribuições
 
