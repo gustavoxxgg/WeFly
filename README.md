@@ -14,7 +14,7 @@ WeFly é um moderno site de agência de viagens, projetado para oferecer aos usu
 - SASS
 
 - **Integração**:
-- **[API de WeFly](https://github.com/gustavoxxgg/API-Wefly)** - fornece todos os dados de voos, preços, destinos, entre outros.
+- **[API do WeFly](https://github.com/gustavoxxgg/API-Wefly)** - fornece todos os dados de voos, preços, destinos, entre outros.
 
 ## 🖥️ Instalação e Execução
 
