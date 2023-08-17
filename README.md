@@ -14,12 +14,12 @@ WeFly é um moderno site de agência de viagens, projetado para oferecer aos usu
 - SASS
 
 - **Integração**:
-- **API de WeFly** - fornece todos os dados de voos, preços, destinos, entre outros.
+- **[API de WeFly](https://github.com/gustavoxxgg/API-Wefly)** - fornece todos os dados de voos, preços, destinos, entre outros.
 
 ## 🖥️ Instalação e Execução
 
 1. Clone este repositório:
-`git clone [link-do-repositorio]`
+`git clone https://github.com/gustavoxxgg/WeFly.git`
 
 2. Navegue até a pasta do projeto e instale as dependências:
 `cd nome-da-pasta npm install`
